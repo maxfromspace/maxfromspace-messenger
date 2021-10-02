@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: seashell;
+    font-size: 35px;
+}
+#h1 {font-size: 40px;}
+.li-1 {display: inline-block; 
+    padding: 13px; 
+    color: lavender;  
+    font-size: 45px;
+    position: relative; top: 5px;
+}
+.h4 {font-size: 10 px;}
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .row { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .row { height: 1%; }
+  .row { display: block; }
+  /* close commented backslash hack */
+
+.header{
+    margin-bottom: 10px;
+}
+.in-header{
+    background-color: rgb(66, 64, 73);
+    height: 100px;
+}
+.content{
+    width: 70%;
+    float: left;
+}
+.in-content {
+    background-color: rgb(66, 64, 73);
+    min-height: 500px;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+}
+.in-sidebar {
+    background-color: rgb(66, 64, 73);
+    min-height: 500px;
+}
+.footer{
+    height: 200px;
+    margin-top: 10px;
+}
+.in-footer {
+    height: 200px;
+    background-color: rgb(66, 64, 73);
+}

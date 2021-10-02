@@ -1,0 +1,11 @@
+<style>
+            table{color: midnightblue;}
+            html a {color: chocolate;}
+            [href="#remember"] {color: darkblue;}
+            .friend {color: darkred;}
+            .help {color: dimgray;}
+            .big {font-weight: bold;}
+            #time {color: goldenrod;}
+            .lolo > li {font-weight: bold;}
+
+</style>
