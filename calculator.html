@@ -8,35 +8,34 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="/calculator.css">
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
-        <input class="card-img-top" >
-        <div class="card-body">
-            <div>
-            <a href="#" class="btn btn-light m-1">1</a>
-            <a href="#" class="btn btn-light m-1">2</a>
-            <a href="#" class="btn btn-light m-1">3</a>
-            <a href="#" class="btn btn-light m-1">4</a>
-            <a href="#" class="btn btn-light m-1">5</a>
-            <a href="#" class="btn btn-light m-1">6</a>
-            <a href="#" class="btn btn-light m-1">7</a>
-            <a href="#" class="btn btn-light m-1">8</a>
-            <a href="#" class="btn btn-light m-1">9</a>
-            <a href="#" class="btn btn-light m-1">0</a>
-            </div>
-
-            <div>
-            <a href="#" class="btn btn-dark m-1">+</a>
-            <a href="#" class="btn btn-dark m-1">-</a>
-            <a href="#" class="btn btn-dark m-1">*</a>
-            <a href="#" class="btn btn-dark m-1">%</a>
-            <a href="#" class="btn btn-dark m-1">=</a>
-            </div>
-
-        </div>
-      </div>
-
+          <div class='calc'>
+            <input class=" input_color" type="text" name="textview" viewonly>
+            <button onclick="insert('+')" class="operation">+</button>
+            <button onclick="insert('-')" class="operation">−</button>
+            <button onclick="insert('*')" class="operation">×</button>
+            <button onclick="insert('/')" class="operation">÷</button>
+            <button onclick="insert('7')" >7</button>
+            <button onclick="insert('8')" >8</button>
+            <button onclick="insert('9')" >9</button>
+            <button onclick="insert('4')" >4</button>
+            <button onclick="insert('5')" >5</button>
+            <button onclick="insert('6')" >6</button>
+            <button onclick="insert('1')" >1</button>
+            <button onclick="insert('2')" >2</button>
+            <button onclick="insert('3')" >3</button>
+            <button onclick="insert('0')" >0</button>
+            <button onclick="insert('.')" >.</button>
+            <button class="clear">C</button>
+            <button class="right operation">=</button>
+          </div>
+        <script> 
+            function insert(num){
+              
+            }
+        </script>
 
       <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
